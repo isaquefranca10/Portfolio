@@ -47,9 +47,9 @@ header:hover{
 	background: var(--main-header-background);
 }
 
-.logo img{
+.logo img {
 	padding-top: 5px;
-	height: 50px;
+	height: 200px;
 	cursor: pointer;
 }
 
@@ -67,6 +67,7 @@ a.nav-link{
 	font-family: var(--main-font-family);
 	cursor: pointer;
 	text-transform: uppercase;
+    border-radius: 12px;
 }
 
 .active{
