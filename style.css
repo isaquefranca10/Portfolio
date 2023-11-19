@@ -48,8 +48,8 @@ header:hover{
 }
 
 .logo img {
-	padding-top: 5px;
-	height: 200px;
+	padding-top: 0px;
+	height:50px;
 	cursor: pointer;
 }
 
@@ -57,6 +57,7 @@ header:hover{
 	list-style:none;
 	position: relative;
 	display: inline-flex;
+    margin-top: 1px;
 }
 
 a.nav-link{
@@ -373,7 +374,7 @@ hr {
 	}
 	.logo{
 		position:absolute;
-		top: 2px;
+		top: 9px;
 		left: 30px;
 	}
 	.nav-show{
@@ -395,9 +396,10 @@ hr {
 		z-index: -1;
 	}
 	.hamburger{
+        margin-top: 2px;
 		position:absolute;
 		top: 17px;
-		right: 25%;
+		right: 5%;
 		display: block;
 		cursor:pointer;
 		z-index: 5;
